@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 
 VERSION = '1.0' 
 DESCRIPTION = 'An easy and fun encryption module.'
+readme = "README.md"
 LONG_DESCRIPTION = 'SweeCrypt is an easy and fun encryption module that turn letters and numbers to symbols found on the keyboard.'
 
 setup(
