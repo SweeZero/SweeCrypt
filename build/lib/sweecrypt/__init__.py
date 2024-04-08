@@ -1,1 +1,0 @@
-from sweecrypt import decrypt, encrypt
