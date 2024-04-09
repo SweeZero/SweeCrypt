@@ -1,1 +1,1 @@
-from sweecryptt import decrypt, encrypt
+from .sweecryptt import decrypt, encrypt
