@@ -9,7 +9,7 @@ setup(
         version=VERSION,
         author="SweeZero",
         author_email="swee@mailfence.com",
-        readme = "README.md"
+        readme = "README.md",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
