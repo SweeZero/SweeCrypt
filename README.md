@@ -5,7 +5,7 @@ Install:<br>
 `pip3 install sweecrypt`
 
 Import:<br>
-`from sweecrypt import *`
+`import sweecrypt`
 
 Encrypt:<br>
 `sweecrypt.encrypt("hello, world!")`
