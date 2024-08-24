@@ -66,5 +66,5 @@ def encrypt(what):
 def decrypt(what):
     decoded = ""
     for i in range(len(what)):
-        encoded += db2.get(what[i], "￼")
+        decoded += db2.get(what[i], "￼")
     return decoded
