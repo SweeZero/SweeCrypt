@@ -1,18 +1,18 @@
 # SweeCrypt
 A basic and fun cipher module for everyone. it converts regular text into symbols on a keyboard, kind of like a cipher. This is only for fun, using this module for cybersecurity is NOT ADVISED
 
-Install:<br>
+Install:  
 `pip3 install sweecrypt`
 
-Import:<br>
+Import:  
 `import sweecrypt`
 
-Encrypt:<br>
-`sweecrypt.encrypt("hello, world!")`
-<br>Output:<br>
+Encrypt:  
+`sweecrypt.encrypt("hello, world!")`  
+Output:  
 `!?~~(:,}(>~/a`
 
-Decrypt:<br>
+Decrypt:  
 `sweecrypt.decrypt("!?~~(:,}(>~/a")`
-<br>Output:<br>
+<br>Output:  
 `hello, world!`
