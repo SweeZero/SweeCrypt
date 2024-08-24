@@ -1,15 +1,14 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0.3' 
+VERSION = '1.0.4' 
 DESCRIPTION = 'An easy and fun encryption module.'
-LONG_DESCRIPTION = 'SweeCrypt is an easy and fun encryption module that turn letters and numbers to symbols found on the keyboard.'
+LONG_DESCRIPTION = open('README.md').read()
 
 setup(
         name="sweecrypt", 
         version=VERSION,
         author="SweeZero",
         author_email="swee@mailfence.com",
-        readme = "README.md",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
